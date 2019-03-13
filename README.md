@@ -1,6 +1,8 @@
 # vue-monaco-esm
 
 ## Install
+Please check: [https://github.com/Microsoft/monaco-editor-webpack-plugin](https://github.com/Microsoft/monaco-editor-webpack-plugin)
+
 ```
 npm i vue-monaco-esm
 ```
