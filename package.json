@@ -1,13 +1,15 @@
 {
-  "name": "monaco-editor-esm",
-  "version": "0.1.0",
-  "private": true,
+  "name": "vue-monaco-esm",
+  "version": "1.0.0",
+  "description": "## Project setup ``` npm install vue-monaco-esm```",
+  "main": "babel.config.js",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "vue-cli-service build --target lib src/components/MonacoEditor.vue ",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "monaco-editor": "^0.16.0",
     "vue": "^2.6.6"
   },
   "devDependencies": {
@@ -19,6 +21,17 @@
     "eslint-plugin-vue": "^5.0.0",
     "vue-template-compiler": "^2.5.21"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wxs77577/vue-monaco-esm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wxs77577/vue-monaco-esm/issues"
+  },
+  "homepage": "https://github.com/wxs77577/vue-monaco-esm#readme",
   "eslintConfig": {
     "root": true,
     "env": {

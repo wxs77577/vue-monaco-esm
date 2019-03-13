@@ -1,29 +1,28 @@
-# monaco-editor-esm
+# vue-monaco-esm
 
-## Project setup
+## Install
 ```
-npm install
+npm i vue-monaco-esm
 ```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
+## Usage
+```html
+<monaco-editor v-model="code" style="height:10em;border:1px solid #ccc;"></monaco-editor>
 ```
 
-### Run your tests
-```
-npm run test
+```javascript
+import MonacoEditor from 'vue-monaco-esm'
+
+export default {
+  data(){
+    return {
+      code: 'const vm = new Vue({})'
+    }
+  },
+  components: {
+    MonacoEditor
+  },
+  // ...
+}
+
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
