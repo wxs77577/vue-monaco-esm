@@ -1,6 +1,6 @@
 {
   "name": "vue-monaco-esm",
-  "version": "1.0.0",
+  "version": "0.2.1",
   "description": "## Project setup ``` npm install vue-monaco-esm```",
   "main": "babel.config.js",
   "scripts": {
